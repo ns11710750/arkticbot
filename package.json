@@ -1,0 +1,13 @@
+{
+    "name": "arkticbot",
+    "version": "1.0.0",
+    "description": "This is a arktic Bot",
+    "main": "arktic-bot.js",
+    "author": "Arktic-Sarge",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "dependencies": {
+	"discord.js" : "11.2.1"
+	}
+}
