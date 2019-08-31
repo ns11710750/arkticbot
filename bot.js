@@ -34,6 +34,15 @@ else if(msg.content.toLowerCase() === "beast"){
 else if(msg.content.toLowerCase() === "chutiya"){
     msg.reply('Bhen ke lawde gaand na fulao maa chood denge tumhari');
 }
+else if(msg.content.toLowerCase() === "chutya"){
+    msg.reply('Bhen ke lawde gaand na fulao maa chood denge tumhari');
+}
+else if(msg.content.toLowerCase() === "chutiyaa"){
+    msg.reply('Bhen ke lawde gaand na fulao maa chood denge tumhari');
+}
+else if(msg.content.toLowerCase() === "chutyaa"){
+    msg.reply('Bhen ke lawde gaand na fulao maa chood denge tumhari');
+}
 else if(msg.content.toLowerCase() === "bhenchod"){
     msg.reply('Bhosdike idhar gaali mat de lawde maa chod denge nahi to');
 }
