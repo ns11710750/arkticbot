@@ -5,6 +5,41 @@ const bot = new Discord.Client();
 bot.on('ready', () =>{
     console.log('I am online!');
       });
+bot.on('ready', () => {
+    bot.user.setStatus('available')
+    bot.user.setPresence({
+        game: {
+            name: 'www.arktic.ga',
+            type: "STREAMING",
+            url: "https://www.twitch.tv/iz3ns"
+        }
+    });
+});
+
+const prefix = "ab!";
+
+bot.on("message", (message) => {
+    msg = message.content.toLowerCase();
+    if (message.author.bot) return;
+    mention = message.mentions.users.first();
+    if (msg.startsWith (prefix + "send")) {
+        if (mention == null) { return; }
+        message.delete();
+        mentionMessage = message.content.slice (8);
+        mention.sendMessage (mentionMessage);
+        message.channel.send ("done");
+    }
+
+})
+
+bot.on('message', msg => {
+    if (msg.guild && msg.content.startsWith('ab!all')) {
+      let text = msg.content.slice('ab!all'.length);
+      msg.guild.members.forEach(member => {
+        if (member.id != bot.user.id && !member.user.bot) member.send(text);
+      });
+    }
+  });
 
 bot.on('message', msg=>{
     if(msg.content.toLowerCase() === "arktic"){
@@ -112,6 +147,15 @@ else if(msg.content.toLowerCase() === "!vnhax"){
 else if(msg.content.toLowerCase() === "!youtube"){
     msg.reply('HEY THIS IS MY YOUTUBE CHANNEL\nSUBSCRIBE AND GET DAILY HACK GAMEPLAY VIDEO\nhttps://www.youtube.com/channel/UC083eydMbfgPuHMja6rte9Q');
 }
+else if(msg.content.toLowerCase() === "!venom"){
+    msg.reply('\nDownload Venom hack from\nhttps://mshare.io/file/Ycsmzp');
+}
+else if(msg.content.toLowerCase() === "!life"){
+    msg.reply('\nDownload Lifevip hack from \nhttp://gestyy.com/w33yf3');
+}
+else if(msg.content.toLowerCase() === "!lif"){
+    msg.reply('\nDownload Lifevip hack from \nhttp://gestyy.com/w33yf3');
+}
 else if(msg.content.toLowerCase() === "loda"){
     msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
 }
@@ -135,6 +179,15 @@ else if(msg.content.toLowerCase() === "bhosdike"){
 }
 else if(msg.content.toLowerCase() === "bhosdika"){
     msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+}
+else if(msg.content.toLowerCase() === "chut"){
+    msg.reply('Bhosdike idhar gaali mat de behen ke lawde, Gaand mara jangal mein chutye');
+}
+else if(msg.content.toLowerCase() === "chakka"){
+    msg.reply('Tera baap chakka aur tu chakke ka beta');
+}
+else if(msg.content.toLowerCase() === "teri maa ki chut"){
+    msg.reply('Tere muh mein Gadhe ka Lauda');
 }
 else if(msg.content.toLowerCase() === "madrchod"){
     msg.reply('Bhosdike idhar gaali mat de lawde madarchod hoga tu');
