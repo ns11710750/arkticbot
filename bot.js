@@ -19,6 +19,7 @@ bot.on('ready', () => {
 const prefix = "ab!";
 
 bot.on("message", (message) => {
+    if (message.channel.id === '617818476547014686'){
     msg = message.content.toLowerCase();
     if (message.author.bot) return;
     mention = message.mentions.users.first();
@@ -30,21 +31,25 @@ bot.on("message", (message) => {
         message.channel.send ("done");
     }
 
-})
+}})
 
 bot.on('message', msg => {
+    if (msg.channel.id === '617818476547014686'){
     if (msg.guild && msg.content.startsWith('ab!all')) {
       let text = msg.content.slice('ab!all'.length);
       msg.guild.members.forEach(member => {
         if (member.id != bot.user.id && !member.user.bot) member.send(text);
       });
     }
-  });
+}});
 
 bot.on('message', msg=>{
     if(msg.content.toLowerCase() === "arktic"){
-    msg.reply('Arktic is the best server ever say CHEERS!');
-}
+        msg.reply('\nThere are 7 Co Founders of ARKTIC They are\nARKTIC乡SARGE(#1941)\t-\tNISANT\nARKTIC乡IZEN(#8953)\t-\tSAGAR\nARKTIC乡ANZY(#5930)\t-\tSACHIN\nARKTIC乡GODFATHER(#2472)\t-\tISHAN\nARKTIC乡CRUSADER(#6786)\t-\tAJAY\nARKTIC乡YOYO(#7475)\t-\tMITESH\nARKTIC乡BEAST(#9176)\t-\tSASHIKANT\n\nThese are the origanls, ALL OF THESE ARE MAIN BOSSES OF ARKTICS,\nwith their appropriate discord tags');
+    }
+else if(msg.content.toLowerCase() === "arktics"){
+        msg.reply('\nThere are 7 Co Founders of ARKTIC They are\nARKTIC乡SARGE(#1941)\t-\tNISANT\nARKTIC乡IZEN(#8953)\t-\tSAGAR\nARKTIC乡ANZY(#5930)\t-\tSACHIN\nARKTIC乡GODFATHER(#2472)\t-\tISHAN\nARKTIC乡CRUSADER(#6786)\t-\tAJAY\nARKTIC乡YOYO(#7475)\t-\tMITESH\nARKTIC乡BEAST(#9176)\t-\tSASHIKANT\n\nThese are the origanls, ALL OF THESE ARE MAIN BOSSES OF ARKTICS,\nwith their appropriate discord tags');
+    }
 else if(msg.content.toLowerCase() === "anzy"){
     msg.reply('SACHIN is Co founder of Arktic Clan');
 }
@@ -81,7 +86,13 @@ else if(msg.content.toLowerCase() === "chutyaa"){
 else if(msg.content.toLowerCase() === "bhenchod"){
     msg.reply('Bhosdike idhar gaali mat de lawde maa chod denge nahi to');
 }
+else if(msg.content.toLowerCase() === "bc"){
+    msg.reply('Bhosdike idhar gaali mat de lawde maa chod denge nahi to');
+}
 else if(msg.content.toLowerCase() === "madarchod"){
+    msg.reply('Bhosdike idhar gaali mat de lawde madarchod hoga tu');
+}
+else if(msg.content.toLowerCase() === "mc"){
     msg.reply('Bhosdike idhar gaali mat de lawde madarchod hoga tu');
 }
 else if(msg.content.toLowerCase() === "gandu"){
@@ -124,7 +135,7 @@ else if(msg.content.toLowerCase() === "!fendi"){
     msg.reply('\nDownload Fendi from \nhttp://gestyy.com/w33rN2');
 }
 else if(msg.content.toLowerCase() === "!kamikaze"){
-    msg.reply('\nDownload Kamikaze from \nhttps://mega.nz/#!2yI1FCwC!bYBK8B57yZk9AcLPG6BQBOu3nNBzzY71nr9lFzAg_24');
+    msg.reply('\nDownload Kamikaze from \nhttp://corneey.com/w38HwL');
 }
 else if(msg.content.toLowerCase() === "!lamborghini"){
     msg.reply('\nDownload Lamborghini hack from \nhttps://www.sinkimobile.com/download');
@@ -162,6 +173,12 @@ else if(msg.content.toLowerCase() === "loda"){
 else if(msg.content.toLowerCase() === "lode"){
     msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
 }
+else if(msg.content.toLowerCase() === "looda"){
+    msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+}
+else if(msg.content.toLowerCase() === "loode"){
+    msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+}
 else if(msg.content.toLowerCase() === "fuck"){
     msg.reply('Get Lost and Fuck yourself Bitch');
 }
@@ -180,6 +197,9 @@ else if(msg.content.toLowerCase() === "bhosdike"){
 else if(msg.content.toLowerCase() === "bhosdika"){
     msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
 }
+else if(msg.content.toLowerCase() === "bsdk"){
+    msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+}
 else if(msg.content.toLowerCase() === "chut"){
     msg.reply('Bhosdike idhar gaali mat de behen ke lawde, Gaand mara jangal mein chutye');
 }
@@ -191,6 +211,15 @@ else if(msg.content.toLowerCase() === "teri maa ki chut"){
 }
 else if(msg.content.toLowerCase() === "madrchod"){
     msg.reply('Bhosdike idhar gaali mat de lawde madarchod hoga tu');
+}
+else if(msg.content.toLowerCase() === "gaand"){
+    msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein');
+}
+else if(msg.content.toLowerCase() === "gand"){
+    msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein');
+}
+else if(msg.content.toLowerCase() === "gaaand"){
+    msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein');
 }
 })
 
