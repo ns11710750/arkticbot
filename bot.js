@@ -44,6 +44,7 @@ bot.on('message', msg => {
 }});
 
 bot.on('message', msg=>{
+if(msg.author.id === bot.user.id) return;{
     if(msg.content.toLowerCase() === "arktic"){
         msg.reply('\nThere are 7 Co Founders of ARKTIC They are\nARKTIC乡SARGE(#1941)\t-\tNISANT\nARKTIC乡IZEN(#8953)\t-\tSAGAR\nARKTIC乡ANZY(#5930)\t-\tSACHIN\nARKTIC乡GODFATHER(#2472)\t-\tISHAN\nARKTIC乡CRUSADER(#6786)\t-\tAJAY\nARKTIC乡YOYO(#7475)\t-\tMITESH\nARKTIC乡BEAST(#9176)\t-\tSASHIKANT\n\nThese are the origanls, ALL OF THESE ARE MAIN BOSSES OF ARKTICS,\nwith their appropriate discord tags');
     }
@@ -71,57 +72,106 @@ else if(msg.content.toLowerCase() === "crusader"){
 else if(msg.content.toLowerCase() === "beast"){
     msg.reply('SASHIKANT is Co founder of Arktic Clan');
 }
-else if(msg.content.toLowerCase() === "chutiya"){
-    msg.reply('Bhen ke lawde gaand na fulao maa chood denge tumhari');
-}
-else if(msg.content.toLowerCase() === "chutya"){
-    msg.reply('Bhen ke lawde gaand na fulao maa chood denge tumhari');
-}
-else if(msg.content.toLowerCase() === "chutiyaa"){
-    msg.reply('Bhen ke lawde gaand na fulao maa chood denge tumhari');
-}
-else if(msg.content.toLowerCase() === "chutyaa"){
-    msg.reply('Bhen ke lawde gaand na fulao maa chood denge tumhari');
-}
-else if(msg.content.toLowerCase() === "bhenchod"){
-    msg.reply('Bhosdike idhar gaali mat de lawde maa chod denge nahi to');
-}
-else if(msg.content.toLowerCase() === "bc"){
-    msg.reply('Bhosdike idhar gaali mat de lawde maa chod denge nahi to');
-}
-else if(msg.content.toLowerCase() === "madarchod"){
-    msg.reply('Bhosdike idhar gaali mat de lawde madarchod hoga tu');
-}
-else if(msg.content.toLowerCase() === "mc"){
-    msg.reply('Bhosdike idhar gaali mat de lawde madarchod hoga tu');
-}
-else if(msg.content.toLowerCase() === "gandu"){
-    msg.reply('Bhosdike idhar gaali mat de lawde, tera baap gandu samja');
-}
-else if(msg.content.toLowerCase() === "gaandu"){
-    msg.reply('Bhosdike idhar gaali mat de lawde, tera baap gandu samja');
-}
-else if(msg.content.toLowerCase() === "lawda"){
-    msg.reply('Tu chakka hain kya kisne lund kaat diya tera?');
-}
-else if(msg.content.toLowerCase() === "lawde"){
-    msg.reply('Tu chakka hain kya kisne lund kaat diya tera?');
-}
-else if(msg.content.toLowerCase() === "randi"){
-    msg.reply('Bhosdike idhar gaali mat de lawde, teri maa randi samja');
-}
-else if(msg.content.toLowerCase() === "randii"){
-    msg.reply('Bhosdike idhar gaali mat de lawde, teri maa randi samja');
-}
-else if(msg.content.toLowerCase() === "motherchodd"){
-    msg.reply('Bhosdike idhar gaali mat de lawde madarchod hoga tu');
-}
-else if(msg.content.toLowerCase() === "behenchod"){
-    msg.reply('Bhosdike idhar gaali mat de lawde maa chod denge nahi to');
-}
-else if(msg.content.toLowerCase() === "chutia"){
-    msg.reply('Bhen ke lawde gaand na fulao maa chood denge tumhar');
-}
+else if(msg.content.toLowerCase().includes('chutiya'))
+    {
+        msg.reply('BBhen ke lawde gaand na fulao maa chood denge tumhari');
+    }
+else if(msg.content.toLowerCase().includes('chutya'))
+    {
+        msg.reply('Behen ke lawde gaand na fulao maa chood denge tumhari');
+    }
+else if(msg.content.toLowerCase().includes('chutiyaa'))
+    {
+        msg.reply('Bhen ke lawde gaand na fulao maa chood denge tumhari');
+    }
+else if(msg.content.toLowerCase().includes('chutyaa'))
+    {
+        msg.reply('Bhen ke lawde gaand na fulao maa chood denge tumhari');
+    }
+else if(msg.content.toLowerCase().includes('bhenchod'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde maa chod denge nahi to');
+    }
+else if(msg.content.toLowerCase().includes('bc'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde maa chod denge nahi to');
+    }
+else if(msg.content.toLowerCase().includes('madarchod'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde madarchod hoga tu');
+    }
+else if(msg.content.toLowerCase().includes('mc'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde madarchod hoga tu');
+    }
+else if(msg.content.toLowerCase().includes('gandu'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, tera baap gandu samja');
+    }
+else if(msg.content.toLowerCase().includes('gaandu'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, tera baap gandu samja');
+    }
+else if(msg.content.toLowerCase().includes('gaaandu'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, tera baap gandu samja');
+    }
+else if(msg.content.toLowerCase().includes('ganduu'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, tera baap gandu samja');
+    }
+else if(msg.content.toLowerCase().includes('ganduuu'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, tera baap gandu samja');
+    }
+else if(msg.content.toLowerCase().includes('gaanduu'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, tera baap gandu samja');
+    }
+else if(msg.content.toLowerCase().includes('gaanduuu'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, tera baap gandu samja');
+    }
+else if(msg.content.toLowerCase().includes('lawda'))
+    {
+        msg.reply('Tu chakka hain kya kisne lund kaat diya tera?');
+    }
+else if(msg.content.toLowerCase().includes('lawde'))
+    {
+        msg.reply('Tu chakka hain kya kisne lund kaat diya tera?');
+    }
+else if(msg.content.toLowerCase().includes('randi'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, teri maa randi samja');
+    }
+else if(msg.content.toLowerCase().includes('randii'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, teri maa randi samja');
+    }
+else if(msg.content.toLowerCase().includes('raandi'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, teri maa randi samja');
+    }
+else if(msg.content.toLowerCase().includes('randwa'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, teri maa randi samja');
+    }
+else if(msg.content.toLowerCase().includes('randva'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, teri maa randi samja');
+    }
+else if(msg.content.toLowerCase().includes('motherchodd'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde madarchod hoga tu');
+    }
+else if(msg.content.toLowerCase().includes('behenchod'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde maa chod denge nahi to');
+    }
+else if(msg.content.toLowerCase().includes('chutia'))
+    {
+        msg.reply('Bhen ke lawde gaand na fulao maa chood denge tumhari');
+    }
 else if(msg.content.toLowerCase() === "!monster"){
     msg.reply('\nDownload Monster Hack\nhttp://gestyy.com/w3388u');
 }
@@ -167,59 +217,173 @@ else if(msg.content.toLowerCase() === "!life"){
 else if(msg.content.toLowerCase() === "!lif"){
     msg.reply('\nDownload Lifevip hack from \nhttp://gestyy.com/w33yf3');
 }
-else if(msg.content.toLowerCase() === "loda"){
-    msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
-}
-else if(msg.content.toLowerCase() === "lode"){
-    msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
-}
-else if(msg.content.toLowerCase() === "looda"){
-    msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
-}
-else if(msg.content.toLowerCase() === "loode"){
-    msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
-}
-else if(msg.content.toLowerCase() === "fuck"){
-    msg.reply('Get Lost and Fuck yourself Bitch');
-}
-else if(msg.content.toLowerCase() === "fucck"){
-    msg.reply('Get Lost and Fuck yourself Bitch');
-}
-else if(msg.content.toLowerCase() === "fuckk"){
-    msg.reply('Get Lost and Fuck yourself Bitch');
-}
+else if(msg.content.toLowerCase().includes('loda'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+    }
+else if(msg.content.toLowerCase().includes('lode'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+    }
+else if(msg.content.toLowerCase().includes('looda'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+    }
+else if(msg.content.toLowerCase().includes('loode'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+    }
 else if(msg.content.toLowerCase() === "!errorx"){
     msg.reply('\nDownload Errorx from \nhttps://cdn.discordapp.com/attachments/609707272527937537/617370377114353694/errorXvip.vmp.safe.exe');
 }
-else if(msg.content.toLowerCase() === "bhosdike"){
-    msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
-}
-else if(msg.content.toLowerCase() === "bhosdika"){
-    msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
-}
-else if(msg.content.toLowerCase() === "bsdk"){
-    msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
-}
-else if(msg.content.toLowerCase() === "chut"){
-    msg.reply('Bhosdike idhar gaali mat de behen ke lawde, Gaand mara jangal mein chutye');
-}
-else if(msg.content.toLowerCase() === "chakka"){
-    msg.reply('Tera baap chakka aur tu chakke ka beta');
-}
-else if(msg.content.toLowerCase() === "teri maa ki chut"){
-    msg.reply('Tere muh mein Gadhe ka Lauda');
-}
-else if(msg.content.toLowerCase() === "madrchod"){
-    msg.reply('Bhosdike idhar gaali mat de lawde madarchod hoga tu');
-}
-else if(msg.content.toLowerCase() === "gaand"){
-    msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein');
-}
-else if(msg.content.toLowerCase() === "gand"){
-    msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein');
-}
-else if(msg.content.toLowerCase() === "gaaand"){
-    msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein');
+else if(msg.content.toLowerCase().includes('fuck'))
+    {
+        msg.reply('Get Lost and Fuck yourself Bitch');
+    }
+else if(msg.content.toLowerCase().includes('fuckk'))
+    {
+        msg.reply('Get Lost and Fuck yourself Bitch');
+    }
+else if(msg.content.toLowerCase().includes('bhosdike'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('bhosda'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('bhosdaa'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('bhosra'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('bhosraa'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('bhosdeka'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('bhosdikee'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('bhosdk'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('bhosdika'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('bhosdikaa'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('bsdk'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('chakkka'))
+    {
+        msg.reply('Tera baap chakka aur tu chakke ka beta');
+    }
+else if(msg.content.toLowerCase().includes('chakke'))
+    {
+        msg.reply('Tera baap chakka aur tu chakke ka beta');
+    }
+else if(msg.content.toLowerCase().includes('chakka'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('ka bhosraa'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('ka bhosra'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('ka bhosdaa'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('kabhosdaa'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('kabhosraa'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('kabhosda'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('kabhosra'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('ka_bhosda'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('ka bhosda'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('ki_chut'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('ki chut'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('kichut'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('kichoot'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('madrchod'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde madarchod hoga tu');
+    }
+else if(msg.content.toLowerCase().includes('gaand'))
+    {
+        msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein');
+    }
+else if(msg.content.toLowerCase().includes('gand'))
+    {
+        msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein');
+    }
+else if(msg.content.toLowerCase().includes('gaaand'))
+    {
+        msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein');
+    }
+else if(msg.content.toLowerCase().includes('lavda'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+    }
+else if(msg.content.toLowerCase().includes('lavdaa'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+    }
+else if(msg.content.toLowerCase().includes('lavde'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+    }
+else if(msg.content.toLowerCase().includes('lavdee'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+    }
 }
 })
 
