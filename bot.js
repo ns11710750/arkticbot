@@ -240,6 +240,10 @@ else if(msg.content.toLowerCase().includes('fuck'))
     {
         msg.reply('Get Lost and Fuck yourself Bitch');
     }
+else if(msg.content.toLowerCase().includes('Bitch'))
+    {
+        msg.reply('your mom is Bitch');
+    }
 else if(msg.content.toLowerCase().includes('fuckk'))
     {
         msg.reply('Get Lost and Fuck yourself Bitch');
@@ -273,6 +277,14 @@ else if(msg.content.toLowerCase().includes('bhosdikee'))
         msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
     }
 else if(msg.content.toLowerCase().includes('bhosdk'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('mkb'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('tmkb'))
     {
         msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
     }
@@ -363,6 +375,86 @@ else if(msg.content.toLowerCase().includes('gaand'))
 else if(msg.content.toLowerCase().includes('gand'))
     {
         msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein');
+    }
+else if(msg.content.toLowerCase().includes('mkc'))
+    {
+        msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein samje');
+    }
+else if(msg.content.toLowerCase().includes('tmkc'))
+    {
+        msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein chutye samje');
+    }
+else if(msg.content.toLowerCase().includes('sex'))
+    {
+        msg.reply('dont use sex word or i will kick your ass');
+    }
+else if(msg.content.toLowerCase().includes('naked'))
+    {
+        msg.reply('dont use naked word or i will kick your ass');
+    }
+else if(msg.content.toLowerCase().includes('vagina'))
+    {
+        msg.reply('vagina yeah right Your mom got vagina idiot');
+    }
+else if(msg.content.toLowerCase().includes('pussy'))
+    {
+        msg.reply('who the fuck are to use abusve words in this server you son of a bitch');
+    }
+else if(msg.content.toLowerCase().includes('penis'))
+    {
+        msg.reply('who the fuck are to use abusve words in this server you son of a bitch');
+    }
+else if(msg.content.toLowerCase().includes('ass'))
+    {
+        msg.reply('fuck off Asshole');
+    }
+else if(msg.content.toLowerCase().includes('boobs'))
+    {
+        msg.reply('Your mom got boobs Dont u think suck them');
+    }
+else if(msg.content.toLowerCase().includes('deepthroat'))
+    {
+        msg.reply('lets fuck you bitch after that i m gonna give you deepthroat');
+    }
+else if(msg.content.toLowerCase().includes('blowjob'))
+    {
+        msg.reply('lets fuck you bitch after that i m gonna give you blowjob');
+    }
+else if(msg.content.toLowerCase().includes('threesome'))
+    {
+        msg.reply('what the hell do you want threesome');
+    }
+else if(msg.content.toLowerCase().includes('69'))
+    {
+        msg.reply('Pls dont use the word 69');
+    }
+else if(msg.content.toLowerCase().includes('dick'))
+    {
+        msg.reply('Pls dont use the word dick and get lost you asshole');
+    }
+else if(msg.content.toLowerCase().includes('bitch'))
+    {
+        msg.reply('your mom is bitch and fuck of you stoner with a boner');
+    }
+else if(msg.content.toLowerCase().includes('anal'))
+    {
+        msg.reply('Fuck off stupid');
+    }
+else if(msg.content.toLowerCase().includes('xvideos'))
+    {
+        msg.reply('its not a porn site you idiot');
+    }
+else if(msg.content.toLowerCase().includes('porn'))
+    {
+        msg.reply('its not a porn site you idiot');
+    }
+else if(msg.content.toLowerCase().includes('naughty'))
+    {
+        msg.reply('its not a porn site you idiot');
+    }
+else if(msg.content.toLowerCase().includes('brazzer'))
+    {
+        msg.reply('its not a porn site you idiot');
     }
 else if(msg.content.toLowerCase().includes('gaaand'))
     {
