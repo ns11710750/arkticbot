@@ -118,7 +118,7 @@ else if(msg.content.toLowerCase() === "!lif"){
     msg.reply('\nDownload Lifevip hack from \nhttp://gestyy.com/w33yf3');
 }
 else if(msg.content.toLowerCase() === "!errorx"){
-    msg.reply('\nDownload Errorx from \nhttps://cdn.discordapp.com/attachments/609707272527937537/617370377114353694/errorXvip.vmp.safe.exe');
+    msg.reply('\nDownload Errorx from \nhttp://bit.ly/errorv2update');
 }
 {
 if (msg.channel.id === '546001221442600972' || msg.channel.id === '598531387963736082' || msg.channel.id === '610513586560696330' || msg.channel.id === '545986441306570791' || msg.channel.id === '609788620236390441' || msg.channel.id === '597772282441629709' || msg.channel.id === '597737539004268544' || msg.channel.id === '597737604615503873' || msg.channel.id === '597737699788455937' || msg.channel.id === '597740807507935232' || msg.channel.id === '597741089688125449' || msg.channel.id === '597741500989833226' || msg.channel.id === '597741588579614730' || msg.channel.id === '597741665796489228' || msg.channel.id === '598012142477901824' || msg.channel.id === '598416934387580939' || msg.channel.id === '598436459644583936' || msg.channel.id === '597666558667653136' || msg.channel.id === '597667306838949918' || msg.channel.id === '536885367270408204' || msg.channel.id === '538775389334536204' || msg.channel.id === '538775433601220612' || msg.channel.id === '587499819694555156' || msg.channel.id === '590456120490065930' || msg.channel.id === '590826417458249728' || msg.channel.id === '617770964259831847' || msg.channel.id === '613368968190754819' || msg.channel.id === '616199386707525662' || msg.channel.id === '613024175698870279' || msg.channel.id === '616276019212714005' || msg.channel.id === '613024057436143628' || msg.channel.id === '616928899007512576' || msg.channel.id === '615557684124450817' || msg.channel.id === '492377472671940625' || msg.channel.id === '617118406243778605'){
@@ -215,6 +215,14 @@ else if(msg.content.toLowerCase().includes('motherchodd'))
         msg.reply('Bhosdike idhar gaali mat de lawde madarchod hoga tu');
     }
 else if(msg.content.toLowerCase().includes('behenchod'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde maa chod denge nahi to');
+    }
+else if(msg.content.toLowerCase().includes('bhencho'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde maa chod denge nahi to');
+    }
+else if(msg.content.toLowerCase().includes('bencho'))
     {
         msg.reply('Bhosdike idhar gaali mat de lawde maa chod denge nahi to');
     }
@@ -425,10 +433,6 @@ else if(msg.content.toLowerCase().includes('blowjob'))
 else if(msg.content.toLowerCase().includes('threesome'))
     {
         msg.reply('what the hell do you want threesome');
-    }
-else if(msg.content.toLowerCase().includes('69'))
-    {
-        msg.reply('Pls dont use the word 69');
     }
 else if(msg.content.toLowerCase().includes('dick'))
     {
