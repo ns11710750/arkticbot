@@ -15,7 +15,9 @@ bot.on('ready', () => {
         }
     });
 });
-
+bot.on('guildMemberAdd',  member => {
+    member.guild.channels.get('517368291497476100').send(`Welcome ${member}, welcome to **ARKTIC-PUBG CHEATS** :tada::hugging: !`); 
+});
 const prefix = "ab!";
 
 bot.on("message", (message) => {
