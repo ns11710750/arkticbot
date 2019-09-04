@@ -16,6 +16,10 @@ bot.on('ready', () => {
     });
 });
 
+bot.on('guildMemberAdd',  member => {
+    member.guild.channels.get('517368291497476100').send(Welcome ${member}, welcome to **ARKTIC-PUBG CHEATS** :tada::hugging: !); 
+});
+
 const prefix = "ab!";
 
 bot.on("message", (message) => {
@@ -190,9 +194,49 @@ else if(msg.content.toLowerCase().includes('lawde'))
     {
         msg.reply('Tu chakka hain kya kisne lund kaat diya tera?');
     }
+else if(msg.content.toLowerCase().includes('bhosd'))
+    {
+        msg.reply('Tu chakka hain kya kisne lund kaat diya tera?');
+    }
+else if(msg.content.toLowerCase().includes('bhoosd'))
+    {
+        msg.reply('Tu chakka hain kya kisne lund kaat diya tera?');
+    }
+else if(msg.content.toLowerCase().includes('bhoooos'))
+    {
+        msg.reply('Tu chakka hain kya kisne lund kaat diya tera?');
+    }
+else if(msg.content.toLowerCase().includes('bhooosd'))
+    {
+        msg.reply('Tu chakka hain kya kisne lund kaat diya tera?');
+    }
 else if(msg.content.toLowerCase().includes('randi'))
     {
         msg.reply('Bhosdike idhar gaali mat de lawde, teri maa randi samja');
+    }
+else if(msg.content.toLowerCase().includes('fadte'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, teri maa randi samja');
+    }
+else if(msg.content.toLowerCase().includes('jhand'))
+    {
+        msg.reply('jhaantu saala');
+    }
+else if(msg.content.toLowerCase().includes('jhaand'))
+    {
+        msg.reply('jhaantu saala');
+    }
+else if(msg.content.toLowerCase().includes('jhaaan'))
+    {
+        msg.reply('jhaantu saala');
+    }
+else if(msg.content.toLowerCase().includes('jhaant'))
+    {
+        msg.reply('jhaantu saala');
+    }
+else if(msg.content.toLowerCase().includes('jhant'))
+    {
+        msg.reply('jhaantu saala');
     }
 else if(msg.content.toLowerCase().includes('randii'))
     {
@@ -201,6 +245,18 @@ else if(msg.content.toLowerCase().includes('randii'))
 else if(msg.content.toLowerCase().includes('raandi'))
     {
         msg.reply('Bhosdike idhar gaali mat de lawde, teri maa randi samja');
+    }
+else if(msg.content.toLowerCase().includes('machar'))
+    {
+        msg.reply('machar ji jhaant tatto k sodagar');
+    }
+else if(msg.content.toLowerCase().includes('matchar'))
+    {
+        msg.reply('machar ji jhaant tatto k sodagar');
+    }
+ else if(msg.content.toLowerCase().includes('matchr'))
+    {
+        msg.reply('machar ji jhaant tatto k sodagar');
     }
 else if(msg.content.toLowerCase().includes('randwa'))
     {
@@ -246,13 +302,37 @@ else if(msg.content.toLowerCase().includes('loode'))
     {
         msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
     }
+else if(msg.content.toLowerCase().includes('chud'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+    }
+else if(msg.content.toLowerCase().includes('chodu'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+    }
+else if(msg.content.toLowerCase().includes('phucker'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+    }
+else if(msg.content.toLowerCase().includes('tatt'))
+    {
+        msg.reply('tu hain tatto ka saudagar');
+    }
+else if(msg.content.toLowerCase().includes('kut'))
+    {
+        msg.reply('tu hain tatto ka saudagar');
+    }
 else if(msg.content.toLowerCase().includes('fuck'))
     {
         msg.reply('Get Lost and Fuck yourself Bitch');
     }
 else if(msg.content.toLowerCase().includes('Bitch'))
     {
-        msg.reply('your mom is Bitch');
+        msg.reply('your mom is a Bitch you dumbass');
+    }
+else if(msg.content.toLowerCase().includes('gangbang'))
+    {
+        msg.reply('your mom is a Bitch you dumbass');
     }
 else if(msg.content.toLowerCase().includes('fuckk'))
     {
@@ -273,6 +353,30 @@ else if(msg.content.toLowerCase().includes('bhosdaa'))
 else if(msg.content.toLowerCase().includes('bhosra'))
     {
         msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('nanga'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('fakr'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('faka'))
+    {
+        msg.reply('Bhosdike idhar gaali mat de lawde, Gaand mara jangal mein chutye');
+    }
+else if(msg.content.toLowerCase().includes('tasrif'))
+    {
+        msg.reply('gandu log gaandu kaam');
+    }
+else if(msg.content.toLowerCase().includes('tashrif'))
+    {
+        msg.reply('gandu log gaandu kaam');
+    }
+else if(msg.content.toLowerCase().includes('topa'))
+    {
+        msg.reply('tu hain topa samjhe');
     }
 else if(msg.content.toLowerCase().includes('bhosraa'))
     {
@@ -334,6 +438,14 @@ else if(msg.content.toLowerCase().includes('ka bhosdaa'))
     {
         msg.reply('Tere muh mein Gadhe ka Lauda');
     }
+else if(msg.content.toLowerCase().includes('lund'))
+    {
+        msg.reply('Tere muh mein Gadhe ka Lauda');
+    }
+else if(msg.content.toLowerCase().includes('chus'))
+    {
+        msg.reply('aja lauda lega muh mein bhosdike');
+    }
 else if(msg.content.toLowerCase().includes('kabhosdaa'))
     {
         msg.reply('Tere muh mein Gadhe ka Lauda');
@@ -388,7 +500,7 @@ else if(msg.content.toLowerCase().includes('gand'))
     }
 else if(msg.content.toLowerCase().includes('mkc'))
     {
-        msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein samje');
+        msg.reply('Paani kam hain matke mein gaand mar lenge jhatke mein samje chutye');
     }
 else if(msg.content.toLowerCase().includes('tmkc'))
     {
@@ -412,7 +524,7 @@ else if(msg.content.toLowerCase().includes('pussy'))
     }
 else if(msg.content.toLowerCase().includes('penis'))
     {
-        msg.reply('who the fuck are to use abusve words in this server you son of a bitch');
+        msg.reply('who the fuck are you to use abusive words in this server you son of a bitch');
     }
 else if(msg.content.toLowerCase().includes('ass'))
     {
