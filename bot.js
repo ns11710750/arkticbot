@@ -132,6 +132,10 @@ else if(msg.content.toLowerCase().includes('chutya'))
     {
         msg.reply('Behen ke lawde gaand na fulao maa chood denge tumhari');
     }
+else if(msg.content.toLowerCase().includes('chutye'))
+    {
+        msg.reply('Behen ke lawde gaand na fulao maa chood denge tumhari');
+    }
 else if(msg.content.toLowerCase().includes('chutiyaa'))
     {
         msg.reply('Bhen ke lawde gaand na fulao maa chood denge tumhari');
@@ -163,6 +167,18 @@ else if(msg.content.toLowerCase().includes('gandu'))
 else if(msg.content.toLowerCase().includes('gaandu'))
     {
         msg.reply('Bhosdike idhar gaali mat de lawde, tera baap gandu samja');
+    }
+else if(msg.content.toLowerCase().includes('chod'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+    }
+else if(msg.content.toLowerCase().includes('chood'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
+    }
+else if(msg.content.toLowerCase().includes('chhod'))
+    {
+        msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
     }
 else if(msg.content.toLowerCase().includes('gaaandu'))
     {
