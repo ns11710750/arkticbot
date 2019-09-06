@@ -81,7 +81,7 @@ else if(msg.content.toLowerCase() === "!monster"){
     msg.reply('\nDownload Monster Hack\nhttp://gestyy.com/w3388u');
 }
 else if(msg.content.toLowerCase() === "!creation"){
-    msg.reply('\nDownload Creation Hack\nhttps://cdn.discordapp.com/attachments/615456178562138153/615679362058027024/imgui_8-26-2019.exe');
+    msg.reply('\nDownload Creation Hack\nhttp://festyy.com/w4rVfz');
 }
 else if(msg.content.toLowerCase() === "!degogh"){
     msg.reply('\nDownload Degogh from\nhttps://linktr.ee/degogh');
