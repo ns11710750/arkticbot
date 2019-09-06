@@ -616,7 +616,6 @@ else if(msg.content.toLowerCase().includes('lavdee'))
     {
         msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
     }
-    }
 }
 })
 
