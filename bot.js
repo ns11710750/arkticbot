@@ -87,7 +87,7 @@ else if(msg.content.toLowerCase() === "!degogh"){
     msg.reply('\nDownload Degogh from\nhttps://linktr.ee/degogh');
 }
 else if(msg.content.toLowerCase() === "!emperor"){
-    msg.reply('\nDownload Degogh from\nhttp://festyy.com/w4rCbf');
+    msg.reply('\nDownload Emperor from\nhttp://festyy.com/w4rCbf');
 }
 else if(msg.content.toLowerCase() === "!fendi"){
     msg.reply('\nDownload Fendi from \nhttp://festyy.com/w4rC0u');
