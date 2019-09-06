@@ -131,9 +131,7 @@ else if(msg.content.toLowerCase() === "!errorx"){
 else if(msg.content.toLowerCase() === "!error"){
     msg.reply('\nDownload Errorx from \nhttp://festyy.com/w4rCZ3');
 }
-{
-if (msg.channel.id === '546001221442600972' || msg.channel.id === '598531387963736082' || msg.channel.id === '610513586560696330' || msg.channel.id === '545986441306570791' || msg.channel.id === '609788620236390441' || msg.channel.id === '597772282441629709' || msg.channel.id === '597737539004268544' || msg.channel.id === '597737604615503873' || msg.channel.id === '597737699788455937' || msg.channel.id === '597740807507935232' || msg.channel.id === '597741089688125449' || msg.channel.id === '597741500989833226' || msg.channel.id === '597741588579614730' || msg.channel.id === '597741665796489228' || msg.channel.id === '598012142477901824' || msg.channel.id === '598416934387580939' || msg.channel.id === '598436459644583936' || msg.channel.id === '597666558667653136' || msg.channel.id === '597667306838949918' || msg.channel.id === '536885367270408204' || msg.channel.id === '538775389334536204' || msg.channel.id === '538775433601220612' || msg.channel.id === '587499819694555156' || msg.channel.id === '590456120490065930' || msg.channel.id === '590826417458249728' || msg.channel.id === '617770964259831847' || msg.channel.id === '613368968190754819' || msg.channel.id === '616199386707525662' || msg.channel.id === '613024175698870279' || msg.channel.id === '616276019212714005' || msg.channel.id === '613024057436143628' || msg.channel.id === '616928899007512576' || msg.channel.id === '615557684124450817' || msg.channel.id === '492377472671940625' || msg.channel.id === '617118406243778605'){
-if(msg.content.toLowerCase().includes('chutiya'))
+else if(msg.content.toLowerCase().includes('chutiya'))
     {
         msg.reply('BBhen ke lawde gaand na fulao maa chood denge tumhari');
     }
@@ -441,6 +439,30 @@ else if(msg.content.toLowerCase().includes('chakkka'))
     {
         msg.reply('Tera baap chakka aur tu chakke ka beta');
     }
+else if(msg.content.toLowerCase().includes('chut'))
+    {
+        msg.reply('Tera baap chakka aur tu chakke ka beta');
+    }
+else if(msg.content.toLowerCase().includes('chuut'))
+    {
+        msg.reply('Tera baap chakka aur tu chakke ka beta');
+    }
+else if(msg.content.toLowerCase().includes('chuuut'))
+    {
+        msg.reply('Tera baap chakka aur tu chakke ka beta');
+    }
+else if(msg.content.toLowerCase().includes('chot'))
+    {
+        msg.reply('Tera baap chakka aur tu chakke ka beta');
+    }
+else if(msg.content.toLowerCase().includes('chooot'))
+    {
+        msg.reply('Tera baap chakka aur tu chakke ka beta');
+    }
+else if(msg.content.toLowerCase().includes('choot'))
+    {
+        msg.reply('Tera baap chakka aur tu chakke ka beta');
+    }
 else if(msg.content.toLowerCase().includes('chakke'))
     {
         msg.reply('Tera baap chakka aur tu chakke ka beta');
@@ -617,8 +639,7 @@ else if(msg.content.toLowerCase().includes('lavdee'))
     {
         msg.reply('Bhaag na motherchod idhar maa chudane kyo aaya');
     }
-    }}
-}
+    }
 })
 
 bot.login(process.env.BOT_TOKEN)
