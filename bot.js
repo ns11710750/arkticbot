@@ -48,13 +48,13 @@ bot.on('message', msg => {
 bot.on('message', msg=>{
 if(msg.author.id === bot.user.id) return;{
     if(msg.content.toLowerCase() === "arktic"){
-        msg.reply('\nThere are 7 Co Founders of ARKTIC They are\nARKTIC乡SARGE(#1941)\t-\tNISANT\nARKTIC乡IZEN(#8953)\t-\tSAGAR\nARKTIC乡ANZY(#5930)\t-\tSACHIN\nARKTIC乡GODFATHER(#2472)\t-\tISHAN\nARKTIC乡CRUSADER(#6786)\t-\tAJAY\nARKTIC乡YOYO(#7475)\t-\tMITESH\nARKTIC乡BEAST(#9176)\t-\tSASHIKANT\n\nThese are the origanls, ALL OF THESE ARE MAIN BOSSES OF ARKTICS,\nwith their appropriate discord tags');
+        msg.reply('\nThere are 7 Co Founders of ARKTIC They are\nARKTIC乡SARGE(#1941)\t-\tNISANT\nARKTIC乡IZEN(#0001)\t-\tSAGAR\nARKTIC乡ANZY(#5930)\t-\tSACHIN\nARKTIC乡GODFATHER(#2472)\t-\tISHAN\nARKTIC乡CRUSADER(#6786)\t-\tAJAY\nARKTIC乡YOYO(#7475)\t-\tMITESH\nARKTIC乡BEAST(#9176)\t-\tSASHIKANT\n\nThese are the origanls, ALL OF THESE ARE MAIN BOSSES OF ARKTICS,\nwith their appropriate discord tags');
     }
 else if (msg.content === '!avatar') {
         msg.reply(msg.author.avatarURL);
       }
 else if(msg.content.toLowerCase() === "arktics"){
-        msg.reply('\nThere are 7 Co Founders of ARKTIC They are\nARKTIC乡SARGE(#1941)\t-\tNISANT\nARKTIC乡IZEN(#8953)\t-\tSAGAR\nARKTIC乡ANZY(#5930)\t-\tSACHIN\nARKTIC乡GODFATHER(#2472)\t-\tISHAN\nARKTIC乡CRUSADER(#6786)\t-\tAJAY\nARKTIC乡YOYO(#7475)\t-\tMITESH\nARKTIC乡BEAST(#9176)\t-\tSASHIKANT\n\nThese are the origanls, ALL OF THESE ARE MAIN BOSSES OF ARKTICS,\nwith their appropriate discord tags');
+        msg.reply('\nThere are 7 Co Founders of ARKTIC They are\nARKTIC乡SARGE(#1941)\t-\tNISANT\nARKTIC乡IZEN(#0001)\t-\tSAGAR\nARKTIC乡ANZY(#5930)\t-\tSACHIN\nARKTIC乡GODFATHER(#2472)\t-\tISHAN\nARKTIC乡CRUSADER(#6786)\t-\tAJAY\nARKTIC乡YOYO(#7475)\t-\tMITESH\nARKTIC乡BEAST(#9176)\t-\tSASHIKANT\n\nThese are the origanls, ALL OF THESE ARE MAIN BOSSES OF ARKTICS,\nwith their appropriate discord tags');
     }
 else if(msg.content.toLowerCase() === "anzy"){
     msg.reply('SACHIN is Co founder of Arktic Clan');
