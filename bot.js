@@ -16,12 +16,12 @@ bot.on('ready', () => {
     });
 });
 bot.on('guildMemberAdd',  member => {
-    member.guild.channels.get('517368291497476100').send(`Welcome ${member}, welcome to **ARKTIC-PUBG CHEATS** :tada::hugging: !`); 
+    member.guild.channels.get('618462978207121410').send(`Welcome ${member}, welcome to **ARKTIC-PUBG CHEATS** :tada::hugging: !`); 
 });
 const prefix = "ab!";
 
 bot.on("message", (message) => {
-    if (message.channel.id === '617818476547014686'){
+    if (message.channel.id === '620599045567676436'){
     msg = message.content.toLowerCase();
     if (message.author.bot) return;
     mention = message.mentions.users.first();
@@ -36,7 +36,7 @@ bot.on("message", (message) => {
 }})
 
 bot.on('message', msg => {
-    if (msg.channel.id === '617818476547014686'){
+    if (msg.channel.id === '620599045567676436'){
     if (msg.guild && msg.content.startsWith('ab!all')) {
       let text = msg.content.slice('ab!all'.length);
       msg.guild.members.forEach(member => {
@@ -90,7 +90,7 @@ else if(msg.content.toLowerCase() === "!emperor"){
     msg.reply('\nDownload Emperor from\nhttp://festyy.com/w4rCbf');
 }
 else if(msg.content.toLowerCase() === "!fendi"){
-    msg.reply('\nDownload Fendi from \nhttp://festyy.com/w4rC0u');
+    msg.reply('\nDownload Fendi from \nhttps://bit.ly/2m6KqaN');
 }
 else if(msg.content.toLowerCase() === "!kamikaze"){
     msg.reply('\nDownload Kamikaze from \nhttp://festyy.com/w4rC7D');
@@ -126,10 +126,10 @@ else if(msg.content.toLowerCase() === "!lif"){
     msg.reply('\nDownload Lifevip hack from \nhttp://gestyy.com/w33yf3');
 }
 else if(msg.content.toLowerCase() === "!errorx"){
-    msg.reply('\nDownload Errorx from \nhttp://festyy.com/w4rCZ3');
+    msg.reply('\nDownload Errorx from \nhttps://cdn.discordapp.com/attachments/586179359535005705/619611721732194330/error4.vmp.exe');
 }
 else if(msg.content.toLowerCase() === "!error"){
-    msg.reply('\nDownload Errorx from \nhttp://festyy.com/w4rCZ3');
+    msg.reply('\nDownload Errorx from \nhttps://cdn.discordapp.com/attachments/586179359535005705/619611721732194330/error4.vmp.exe');
 }
 else if(msg.content.toLowerCase().includes('chutiya'))
     {
