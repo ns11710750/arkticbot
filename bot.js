@@ -134,7 +134,7 @@ else if(msg.content.toLowerCase() === "!error"){
 else if(msg.content.toLowerCase() === "!shark"){
     msg.reply('\nDownload Shark vip hack from \nhttp://ceesty.com/w4alO5');
 }
-else if(msg.content.toLowerCase() === "!Beer"){
+else if(msg.content.toLowerCase() === "!beer"){
     msg.reply('\nDownload Beer vip hack from \nhttp://ceesty.com/w4alHW');
 }
 else if(msg.content.toLowerCase().includes('chutiya'))
