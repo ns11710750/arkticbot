@@ -90,7 +90,7 @@ else if(msg.content.toLowerCase() === "!emperor"){
     msg.reply('\nDownload Emperor from\nhttp://festyy.com/w4rCbf');
 }
 else if(msg.content.toLowerCase() === "!fendi"){
-    msg.reply('\nDownload Fendi from \nhttps://bit.ly/2m6KqaN');
+    msg.reply('\nDownload Fendi from \nhttp://ceesty.com/w4alMv');
 }
 else if(msg.content.toLowerCase() === "!kamikaze"){
     msg.reply('\nDownload Kamikaze from \nhttp://festyy.com/w4rC7D');
@@ -126,10 +126,16 @@ else if(msg.content.toLowerCase() === "!lif"){
     msg.reply('\nDownload Lifevip hack from \nhttp://gestyy.com/w33yf3');
 }
 else if(msg.content.toLowerCase() === "!errorx"){
-    msg.reply('\nDownload Errorx from \nhttps://cdn.discordapp.com/attachments/586179359535005705/619611721732194330/error4.vmp.exe');
+    msg.reply('\nDownload Errorx from \nhttp://ceesty.com/w4alK7');
 }
 else if(msg.content.toLowerCase() === "!error"){
-    msg.reply('\nDownload Errorx from \nhttps://cdn.discordapp.com/attachments/586179359535005705/619611721732194330/error4.vmp.exe');
+    msg.reply('\nDownload Errorx from \nhttp://ceesty.com/w4alK7');
+}
+else if(msg.content.toLowerCase() === "!shark"){
+    msg.reply('\nDownload Shark vip hack from \nhttp://ceesty.com/w4alO5');
+}
+else if(msg.content.toLowerCase() === "!Beer"){
+    msg.reply('\nDownload Beer vip hack from \nhttp://ceesty.com/w4alHW');
 }
 else if(msg.content.toLowerCase().includes('chutiya'))
     {
