@@ -131,6 +131,12 @@ else if(msg.content.toLowerCase() === "!errorx"){
 else if(msg.content.toLowerCase() === "!error"){
     msg.reply('\nDownload Errorx from \nhttp://ceesty.com/w4alK7');
 }
+else if(msg.content.toLowerCase() === "!dark"){
+    msg.reply('\nDownload Dark hack from \nhttp://ceesty.com/w4avr1');
+}
+else if(msg.content.toLowerCase() === "!magnum"){
+    msg.reply('\nDownload magnum hack from \nhttp://ceesty.com/w4avjM');
+}
 else if(msg.content.toLowerCase() === "!shark"){
     msg.reply('\nDownload Shark vip hack from \nhttp://ceesty.com/w4alO5');
 }
