@@ -81,19 +81,25 @@ else if(msg.content.toLowerCase() === "!monster"){
     msg.reply('\nDownload Monster Hack\nhttp://gestyy.com/w3388u');
 }
 else if(msg.content.toLowerCase() === "!creation"){
-    msg.reply('\nDownload Creation Hack\nhttps://cdn.discordapp.com/attachments/615456178562138153/615679362058027024/imgui_8-26-2019.exe');
+    msg.reply('\nDownload Creation Hack\nhttps://cdn.discordapp.com/attachments/579559275681021963/622137987953852418/creation11.vmp.exe');
 }
 else if(msg.content.toLowerCase() === "!degogh"){
     msg.reply('\nDownload Degogh from\nhttps://linktr.ee/degogh');
 }
-else if(msg.content.toLowerCase() === "!emperor"){
-    msg.reply('\nDownload Emperor from\nhttp://festyy.com/w4rCbf');
-}
 else if(msg.content.toLowerCase() === "!fendi"){
-    msg.reply('\nDownload Fendi from \nhttp://ceesty.com/w4alMv');
+    msg.reply('\nDownload Fendi from \nhttps://mega.nz/#!KA1xVCrI!DTcp9prbGMwjUGuAIBdyG2FtD2VVl1ISICXCkNgbtzc');
 }
 else if(msg.content.toLowerCase() === "!kamikaze"){
-    msg.reply('\nDownload Kamikaze from \nhttp://festyy.com/w4rC7D');
+    msg.reply('\nThis hack is changed type  !ninja  to download');
+}
+else if(msg.content.toLowerCase() === "!ninja"){
+    msg.reply('\nDownload Ninja hack from \nhttps://www.ninjapubgmobile.com/download');
+}
+else if(msg.content.toLowerCase() === "!reyman"){
+    msg.reply('\nDownload ReymenVIP hack from \nhttps://www.reymenvip.com/download');
+}
+else if(msg.content.toLowerCase() === "!reymanvip"){
+    msg.reply('\nDownload ReymenVIP hack from \nhttps://www.reymenvip.com/download');
 }
 else if(msg.content.toLowerCase() === "!lamborghini"){
     msg.reply('\nDownload Lamborghini hack from \nhttps://www.sinkimobile.com/download');
@@ -101,8 +107,11 @@ else if(msg.content.toLowerCase() === "!lamborghini"){
 else if(msg.content.toLowerCase() === "!lb"){
     msg.reply('\nDownload Lamborghini hack from \nhttps://www.sinkimobile.com/download');
 }
-else if(msg.content.toLowerCase() === "!lifevip"){
-    msg.reply('\nDownload Lifevip hack from \nhttp://gestyy.com/w33yf3');
+else if(msg.content.toLowerCase() === "!royal"){
+    msg.reply('\nDownload royal hack from \nhttps://www.retrixcheats.com/download');
+}
+else if(msg.content.toLowerCase() === "!royale"){
+    msg.reply('\nDownload royal hack from \nhttps://www.retrixcheats.com/download');
 }
 else if(msg.content.toLowerCase() === "!mh"){
     msg.reply('\ndownload memory hackers from \nhttps://mega.nz/#!wVMQHAzJ!jYfqHDKVpm5CCQUjN6dnaAzIJ8AmLQjueRT2BTu9ouk');
@@ -115,30 +124,6 @@ else if(msg.content.toLowerCase() === "!vnhax"){
 }
 else if(msg.content.toLowerCase() === "!youtube"){
     msg.reply('HEY THIS IS MY YOUTUBE CHANNEL\nSUBSCRIBE AND GET DAILY HACK GAMEPLAY VIDEO\nhttps://www.youtube.com/channel/UC083eydMbfgPuHMja6rte9Q');
-}
-else if(msg.content.toLowerCase() === "!venom"){
-    msg.reply('\nDownload Venom hack from\nhttps://mshare.io/file/Ycsmzp');
-}
-else if(msg.content.toLowerCase() === "!life"){
-    msg.reply('\nDownload Lifevip hack from \nhttp://gestyy.com/w33yf3');
-}
-else if(msg.content.toLowerCase() === "!lif"){
-    msg.reply('\nDownload Lifevip hack from \nhttp://gestyy.com/w33yf3');
-}
-else if(msg.content.toLowerCase() === "!errorx"){
-    msg.reply('\nDownload Errorx from \nhttp://ceesty.com/w4alK7');
-}
-else if(msg.content.toLowerCase() === "!error"){
-    msg.reply('\nDownload Errorx from \nhttp://ceesty.com/w4alK7');
-}
-else if(msg.content.toLowerCase() === "!dark"){
-    msg.reply('\nDownload Dark hack from \nhttp://ceesty.com/w4avr1');
-}
-else if(msg.content.toLowerCase() === "!magnum"){
-    msg.reply('\nDownload magnum hack from \nhttp://ceesty.com/w4avjM');
-}
-else if(msg.content.toLowerCase() === "!shark"){
-    msg.reply('\nDownload Shark vip hack from \nhttp://ceesty.com/w4alO5');
 }
 else if(msg.content.toLowerCase() === "!beer"){
     msg.reply('\nDownload Beer vip hack from \nhttp://ceesty.com/w4alHW');
