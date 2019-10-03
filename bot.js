@@ -18,6 +18,9 @@ bot.on('ready', () => {
 bot.on('guildMemberAdd',  member => {
     member.guild.channels.get('618462978207121410').send(`Welcome ${member}, welcome to **ARKTIC-PUBG CHEATS** :tada::hugging: !`); 
 });
+bot.on('guildMemberRemove',  member => {
+    member.guild.channels.get('619436632445288468').send(`${member}, I WISH I WILL SEE YOU SOON :cry:`); 
+});
 const prefix = "ab!";
 
 bot.on("message", (message) => {
@@ -99,6 +102,12 @@ else if(msg.content.toLowerCase() === "!reyman"){
     msg.reply('\nDownload ReymenVIP hack from \nhttps://www.reymenvip.com/download');
 }
 else if(msg.content.toLowerCase() === "!reymanvip"){
+    msg.reply('\nDownload ReymenVIP hack from \nhttps://www.reymenvip.com/download');
+}
+else if(msg.content.toLowerCase() === "!raymanvip"){
+    msg.reply('\nDownload ReymenVIP hack from \nhttps://www.reymenvip.com/download');
+}
+else if(msg.content.toLowerCase() === "!rayman"){
     msg.reply('\nDownload ReymenVIP hack from \nhttps://www.reymenvip.com/download');
 }
 else if(msg.content.toLowerCase() === "!lamborghini"){
